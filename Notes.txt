@@ -13,3 +13,12 @@ We use "if , else" conditions for giving conditions. Also we can use "else if" c
 
 Array 
 We declare array by using []. We can put any kind of data type in the array. For example var a = [1,2,3];
+
+Properties and Methods 
+.length = Shows the the total length of the string.
+.indexOf('value') = Shows the the index of the particular word or character.
+.substring('index value', 'index value') = Shows the portion of the long string.
+.replace('value')= It replaces the word with another word.
+.toUpperCase() = It makes the string all upper case.
+.reverse()= reverse the array.
+.pop() = 
