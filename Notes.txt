@@ -1,0 +1,9 @@
+Variables
+We use var for variable.
+
+Data Types
+We dont need to declare the data types for assiging the variables. We just use var keyword.
+If we want to check the type of the variable we use typeof keyword.
+
+String Operators 
+What we use for combining strings with other type of operators.
