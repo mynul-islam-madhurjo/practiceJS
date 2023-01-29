@@ -6,8 +6,24 @@
 
 <body>
 
+    <form>
+        <label for="fvalue">First Value:</label><br>
+        <input type="text" id="fvalue" name="fvalue"><br>
+        <label for="lvalue">Last Value:</label><br>
+        <input type="text" id="lvalue" name="lvalue">
+      </form>
+      Operator:
+      <select id="option">
+        <option value="add"> Add</option>
+        <option value="sub"> Sub</option>
+        <option value="div"> Div</option>
+        <option value="mult"> Mult</option>
+      </select>
+      <div style="padding-top: 15px; padding-bottom: 15px;"> <button type="button" onclick="calculate()"> Calculate</button> </div>
+      The answer is  <span id="result"></span>
+
 </body>
 
-<script type="text/javascript" src="properties&methods.js"></script>
+<script type="text/javascript" src="calculator.js"></script>
 
 </html>
