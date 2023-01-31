@@ -21,4 +21,14 @@ Properties and Methods
 .replace('value')= It replaces the word with another word.
 .toUpperCase() = It makes the string all upper case.
 .reverse()= reverse the array.
-.pop() = 
+
+Scopes
+Scopes basically means where we can use variables. Global scope is declared in the root js file. Local scope is declared inside 
+the function.
+
+
+Function Scope & Block Scope 
+Function scope is curly braces around the function and block scope is curly braces around the variable. We can acces block scope declared variable but can not acces function scope
+
+let and const
+var has a flow that it can be accesed from block scope. let fixed the issue. const is used when we dont want to change the variable.
